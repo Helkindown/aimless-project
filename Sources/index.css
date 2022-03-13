@@ -1,0 +1,10 @@
+@keyframes left_and_right {
+	from { left:0px; }
+	to { left: 100px; }
+}
+
+.move {
+	animation: left_and_right 5s alternate infinite ease-in-out;
+	position: relative;
+	width: max-content;
+}
